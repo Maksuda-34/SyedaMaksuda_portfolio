@@ -603,7 +603,7 @@ body {
   @media screen and (max-width: 750px) {
     .service .service-wrapper .service-items .service-item {
       width: 100%;
-      margin: 5% auto;
+      margin: 15% auto;
     }
   }
   
