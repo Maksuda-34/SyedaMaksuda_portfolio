@@ -252,6 +252,7 @@ body {
     border-top: 1px solid;
     content: "";
     width: 5em;
+    
   }
   .top-wrapper .top-text:after {
     border-top: 1px solid;
