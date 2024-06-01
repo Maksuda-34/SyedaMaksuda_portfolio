@@ -625,6 +625,7 @@ body {
     font-size: 18px;
     line-height: 2.375;
     margin-right: 15px;
+    text-align: justify;
   }
   
   #span {
