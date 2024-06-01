@@ -234,7 +234,7 @@ body {
   .top-wrapper .top-text {
     position: absolute;
     bottom: 20%;
-    right: 20%;
+    right: 25%;
     color: #4f4f4f;
     font-family: Hiragino Mincho ProN;
     font-size: 1.4rem;
@@ -246,10 +246,13 @@ body {
   @media screen and (max-width: 750px) {
     .top-wrapper .top-text {
       font-size: 1.2rem;
-      right: 2%;
     }
   }
-  
+  .top-wrapper .top-text:before {
+    border-top: 1px solid;
+    content: "";
+    width: 5em;
+  }
   .top-wrapper .top-text:after {
     border-top: 1px solid;
     content: "";
