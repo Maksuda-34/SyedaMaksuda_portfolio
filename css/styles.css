@@ -144,7 +144,7 @@ body {
     position: relative;
   }
   .top {
-    background-color: #f4f4f4;
+    background-color: #fafad081;
     color: #333;
     text-align: center;
     padding: 100px 20px;
@@ -236,7 +236,7 @@ body {
     position: absolute;
     bottom: 20%;
     right: 20%;
-    color: #fff;
+    color: #4f4f4f;
     font-family: Hiragino Mincho ProN;
     font-size: 1.4rem;
     display: flex;
@@ -385,8 +385,9 @@ body {
   }
   
   .work .work-wrapper .work-contents .work-content .work-content-text .work-name {
-    font-size: 22px;
-    color: #ddb47c;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #FAC600;
   }
   
   .work .work-wrapper .work-contents .work-content .work-content-text .work-dis {
@@ -500,10 +501,35 @@ body {
     padding-bottom: 120px;
   }
   
-  .about .about-text .about-text-wrap h4 {
+  .about .about-text .about-text-wrap h3 {
     font-weight: normal;
-    font-size: 22px;
+    font-size: 30px;
+    
+  
   }
+  .about .about-text .about-text-wrap p {
+    font-weight: normal;
+    font-size: 20px;
+    font-weight: normal;
+    color: #4f4f4f;
+    padding-bottom:  15px ;
+    margin-right: 30px;
+    display: inline-block;
+    width: 60%; /* Adjust as needed */
+    
+  }
+  .about .about-text .about-text-wrap p strong {
+    font-weight: normal;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4f4f4f;
+    padding-inline: 50px;
+    display: inline-block;
+    width: 30%; /* Adjust as needed */
+    font-weight: bold;
+    
+  }
+
   
   @media screen and (max-width: 750px) {
     .about .about-text .about-text-wrap h4 {
@@ -524,6 +550,8 @@ body {
   @media screen and (max-width: 750px) {
     .about .about-text .about-text-wrap .career p {
       font-size: 14px;
+    margin-bottom: 10px; /* Adjust the value as needed */
+
     }
   }
   
@@ -604,7 +632,182 @@ body {
     background: linear-gradient(transparent 60%, #FAC600);
   
   }
+  .career {
+    background: url(https://zizo.ne.jp/assets/images/common/bg_contents.jpg);
   
+  }
+  /* .about_img {
+    max-width:500px;
+  } */
+  
+  .career .banner {
+    background: url(https://zizo.ne.jp/assets/images/common/bg_contents.jpg);
+  }
+
+  .career h2 {
+    color: #FAC600;
+    padding-top: 50px;
+  }
+  
+  .career span {
+    color: #4f4f4f;
+  }
+  
+
+.career-section {
+    margin-bottom: 20px;
+}
+
+.career-section h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.career-section ul {
+    list-style: disc inside;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    font-size: 1rem;
+    color: #4f4f4f;
+}
+
+.career-section p {
+    font-size: 1rem;
+    color: #4f4f4f;
+    margin: 0;
+}
+
+.career-details ul li {
+    margin-bottom: 10px;
+}
+.education-item,
+.experience-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.education-icon,
+.experience-icon{
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  background-color: #FAC600; /* Background color of the circle */
+  border-radius: 50%; /* Make it a circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.education-info,
+.experience-info {
+    flex-grow: 1;
+    padding-inline: 30px;
+}
+
+.education-info .year,
+.experience-info .year {
+    color: #4f4f4f;
+    font-weight: bold;
+}
+
+.education-info h6,
+.experience-info h6 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.education-info p,
+.experience-info p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #4f4f4f;
+}
+
+.education-info .highlight,
+.experience-info .highlight {
+    font-weight: bold;
+}
+
+.career-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.career-details ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #4f4f4f;
+}
+
+.career-section p {
+    font-size: 1rem;
+    color: #4f4f4f;
+}
+
+@media screen and (max-width: 750px) {
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .banner-title span {
+        font-size: 1rem;
+    }
+
+    .career-text-wrap h4 {
+        font-size: 1.5rem;
+    }
+
+    .career-section h5 {
+        font-size: 1.25rem;
+    }
+
+    .education-item,
+    .experience-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .education-icon,
+    .experience-icon {
+      width: 40px; /* Adjust size as needed */
+      height: 40px; /* Adjust size as needed */
+      background-color: #972f2f; /* Background color of the circle */
+      border-radius: 50%; /* Make it a circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .career-section ul,
+    .career-section p {
+        font-size: 0.875rem;
+    }
+  }
+@media screen and (max-width: 750px) {
+    .career .banner-title {
+        font-size: 2rem;
+    }
+
+    .career .banner-title span {
+        font-size: 1rem;
+    }
+
+    .career-text-wrap h4 {
+        font-size: 1.5rem;
+    }
+
+    .career-section h5 {
+        font-size: 1.25rem;
+    }
+
+    .career-section ul,
+    .career-section p {
+        font-size: 0.875rem;
+    }
+}
+ 
   .skills {
     position: relative;
     width: 100%;
